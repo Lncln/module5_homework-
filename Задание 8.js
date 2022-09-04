@@ -6,7 +6,6 @@ let Hero = new Map([
     
     ["Primary Attribute",    "Intelligence"]
 ]);
-let i = 0;
 for (let heroParameters of Hero.keys()) {
     let parametersValues = Hero.get(heroParameters)
     console.log(`Ключ - ${heroParameters}, значение - ${parametersValues}`);
